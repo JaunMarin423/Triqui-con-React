@@ -8,7 +8,10 @@ export default class Board extends Component{
     }
     render(){
         return(
+            
+
             <div>
+            <h1> Hola </h1>
                 <div className="border-row">
                     {this.renderSquare(0)}
                     {this.renderSquare(1)}
